@@ -65,6 +65,6 @@ class Trainer:
         print(f'Validation Accuracy: {avg_accuracy:.4f}')
 
 if __name__ == '__main__':
-    model = MNIST_CNN()  # Ensure MNIST_CNN is a PyTorch model
+    model = MNIST_CNN()  
     trainer = Trainer(model)
     trainer.run()
